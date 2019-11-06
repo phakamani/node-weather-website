@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "node src/app.js",
+    "nodemon" :  "Start-Process powershell.exe -NoNewWindow \"\/noexit\", \"-executionpolicy bypass\",\"-file C:\\Users\\Phakamani\\AppData\\Roaming\\npm\\nodemon.ps1 -e js,hbs\""
   },
   "keywords": [],
   "author": "",
